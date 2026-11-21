@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elon Musk - Profile & Ventures</title>
+  <style>
+    /* Reset and Base Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: #0b0e14;
+      color: #f1f5f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    /* Main Profile Card */
+    .card {
+      background-color: #151b26;
+      border: 1px solid #2a3441;
+      border-radius: 16px;
+      max-width: 600px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Header Banner */
+    .banner {
+      height: 120px;
+      background: linear-gradient(135deg, #1e3a8a, #0f172a);
+    }
+
+    /* Profile Content */
+    .content {
+      padding: 0 30px 30px;
+      position: relative;
+    }
+
+    .avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: #3b82f6;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 4px solid #151b26;
+      margin-top: -45px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    .bio {
+      line-height: 1.6;
+      color: #cbd5e1;
+      font-size: 15px;
+      margin-bottom: 24px;
+    }
+
+    /* Ventures Grid */
+    h2 {
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #94a3b8;
+      margin-bottom: 12px;
+    }
+
+    .ventures {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .venture-item {
+      background-color: #1e2636;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #2a3441;
+    }
+
+    .venture-item strong {
+      display: block;
+      color: #60a5fa;
+      margin-bottom: 4px;
+      font-size: 15px;
+    }
+
+    .venture-item span {
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    /* Quote Footer */
+    blockquote {
+      border-left: 3px solid #3b82f6;
+      padding-left: 14px;
+      font-style: italic;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="banner"></div>
+    <div class="content">
+      <div class="avatar">EM</div>
+      <h1>Elon Musk</h1>
+      <p class="subtitle">Entrepreneur, Engineer &amp; Tech Executive</p>
+      
+      <p class="bio">
+        Born in Pretoria, South Africa, Elon Musk is known for founding and leading companies focused on electric vehicles, space exploration, artificial intelligence, and neurotechnology.
+      </p>
+
+      <h2>Key Companies</h2>
+      <div class="ventures">
+        <div class="venture-item">
+          <strong>SpaceX</strong>
+          <span>Aerospace &amp; Space Transport</span>
+        </div>
+        <div class="venture-item">
+          <strong>Tesla</strong>
+          <span>Electric Vehicles &amp; Clean Energy</span>
+        </div>
+        <div class="venture-item">
+          <strong>xAI</strong>
+          <span>Artificial Intelligence</span>
+        </div>
+        <div class="venture-item">
+          <strong>X</strong>
+          <span>Social Media &amp; Communications</span>
+        </div>
+        <div class="venture-item">
+          <strong>Neuralink</strong>
+          <span>Brain-Computer Interfaces</span>
+        </div>
+        <div class="venture-item">
+          <strong>The Boring Co.</strong>
+          <span>Infrastructure &amp; Tunneling</span>
+        </div>
+      </div>
+
+      <blockquote>
+        "When something is important enough, you do it even if the odds are not in your favor."
+      </blockquote>
+    </div>
+  </div>
+
+</body>
+</html>
+
